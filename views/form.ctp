@@ -42,5 +42,5 @@
 ?>
 </div>
 <?php
-					echo "\t\t<?php echo \$this->Html->link(__('<i class=\"icon-array-left icon-white\"></i> Volver'), array('action' => 'index'), array('class' => 'btn btn-primary', 'escape' => true))); ?>\n";
+					echo "\t\t<?php echo \$this->Html->link(__('<i class=\"icon-arrow-left icon-white\"></i> Volver'), array('action' => 'index'), array('class' => 'btn btn-primary', 'escape' => false)); ?>\n";
 ?>
