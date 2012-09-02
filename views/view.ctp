@@ -41,5 +41,5 @@ foreach ($fields as $field) {
 	</dl>
 </div>
 <?php
-	echo "\t\t<li><?php echo \$this->Html->link(__('<i class=\"icon-pencil icon-white\"></i> Editar " . $singularHumanName ."'), array('action' => 'edit', \${$singularVar}['{$modelClass}']['{$primaryKey}']), array('class' => 'btn', 'escape' => 'false')); ?> </li>\n";
+	echo "\t\t<li><?php echo \$this->Html->link(__('<i class=\"icon-pencil icon-white\"></i> Editar " . $singularHumanName ."'), array('action' => 'edit', \${$singularVar}['{$modelClass}']['{$primaryKey}']), array('class' => 'btn', 'escape' => false)); ?> </li>\n";
 ?>
